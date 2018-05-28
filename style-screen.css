@@ -1,0 +1,74 @@
+#menu {
+    padding: 0;
+  }
+ 
+  #menu li {
+    display: inline;
+    border-style: solid;
+    padding:5px 30px;
+    width: 60px;
+    background-color: rgb(158,240,255);
+  }
+  #menu li a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    
+    padding: 10px;
+  }
+
+  h1{
+  font-weight: bold;
+  text-align: center;
+  }
+
+  nav{
+    
+    text-align: center;
+    
+  }
+
+  li:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: #CBF2EB;
+}
+
+/* visited link */
+li:visited {
+    color: #101111;
+    font-weight: bold;
+
+}
+
+/* mouse over link */
+li:hover {
+    color: #FF00FF;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* selected link */
+li:active {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+footer{
+border-style: solid;
+padding:5px 30px;
+text-align: left;
+text-align: justify;
+
+}
+
+footer div{ 
+width: 80%;
+display: inline-block;
+ }
+
+footer img{
+  width: 15%;
+  text-align: right;
+  display: inline-block;
+}
