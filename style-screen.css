@@ -5,15 +5,14 @@ header{
   font-size: 20px;
   background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_640.jpg")
 }
-
+ 
   #menu li {
     display: inline;
-    border: 1px solid black;
-    padding: 10px 20px ; 
-    font-size: 20px;
-    background-color: rgb(50,170,255);
-}
- 
+    border-style: solid;
+    padding:5px 30px;
+    width: 60px;
+    background-color: rgb(158,240,255);
+  }
   #menu li a {
     font-family: Arial;
     font-size: 15px;
@@ -32,12 +31,6 @@ header{
     text-align: center;
     
   }
-
-  li:hover{
-  opacity: 0.5;
-  cursor: pointer;
-  background-color: #CBF2EB;
-}
 
 /* visited link */
 li:visited {
@@ -59,47 +52,98 @@ li:active {
     font-weight: bold;
 }
 
-footer{
+
+section article{
+
+  text-align: left;
+}
+
+img#mision:hover, img#vision:hover{
+
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+h2#datos, h2#servicios {
+
+  text-decoration: underline;
+}
+section{
+
+text-align: center;
+display: inline-block;
+float: right;
+width: 650px;
+height: 600px;
+padding: 3px;
+
+}
+
+section img{
+width:30%;
+display: inline-block;
+
+}
+
+section div{
+width: 50%
+display: inline-block;
+
+}
+
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 8px;
+  margin-top: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
+
+aside{
+
+border-style: solid;
+display: inline-block;
+float: left;
 border: 1px solid black;
+width: 350px;
+height: 400px;
+padding: 8px;
+text-align: center;
+
+}
+
+footer{
+
+border-style: solid;
 padding:5px 30px;
-text-align: left;
 text-align: justify;
 
 }
 
 footer div{ 
-width: 80%;
+width: 50%;
+text-align: left;
 display: inline-block;
  }
 
 footer img{
-  width: 15%;
+  width: 40px;
+  height: 40px;
   text-align: right;
   display: inline-block;
 }
-/*.................*/
+
 div.contenido{
   display: inline-block;
   
   padding: 2px;
   margin: 3px;
  
-}
-aside{
-  border: 1px solid black;
-  width: 350px;
-  height: 400px;
-  padding: 8px;
-  
-  text-align: center;
-}
-section{
-  
-  width: 650px;
-  height: 600px;
-  padding: 3px;
-
-  
 }
 
 #tweets{
@@ -118,9 +162,7 @@ div.twitter div{
   text-align: justify;
   
 }
-section h2{
-  text-align: center;
-}
+
 #encuentranos{
   line-height: 2;
 }
@@ -128,6 +170,7 @@ video{
   width: 220px;
   height: 140px;
 }
+
 div label{
   text-decoration: underline;
 }
@@ -152,12 +195,6 @@ textarea{
 
 #tweet-1 .timestamp::after {
   content: "1m";
-}
-
-
-img#footer{
-  height: 80px;
-  width: 80px;
 }
 
 div.contenido section {
@@ -205,7 +242,8 @@ img.imagen{
   height: 120px;
   width: 120px;
 }
+
 img.imagen[alt^=Somos]:hover{
   opacity: 0.5;
-  
+  cursor: pointer;
 }
