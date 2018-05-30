@@ -1,3 +1,4 @@
+
 header{
   text-align: center;
   color: white;
@@ -8,16 +9,15 @@ header{
  
   #menu li {
     display: inline;
-    border-style: solid;
-    padding:5px 30px;
+    border: 1px solid black;
+    padding:10px 35px;
     width: 60px;
-    background-color: rgb(158,240,255);
+    background-color: rgb(100,200,255);
   }
   #menu li a {
     font-family: Arial;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
-    
     padding: 10px;
   }
 
@@ -70,7 +70,7 @@ h2#datos, h2#servicios {
 }
 section{
 
-text-align: center;
+
 display: inline-block;
 float: right;
 width: 650px;
@@ -119,17 +119,17 @@ text-align: center;
 
 footer{
 
-border-style: solid;
-padding:5px 30px;
-text-align: justify;
+  border: 1px solid black;
+  padding:5px 30px;
+  text-align: justify;
 
 }
 
 footer div{ 
-width: 50%;
-text-align: left;
-display: inline-block;
- }
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
 
 footer img{
   width: 40px;
@@ -145,6 +145,7 @@ div.contenido{
   margin: 3px;
  
 }
+
 
 #tweets{
   align-content: center;
